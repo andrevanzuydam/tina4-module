@@ -1,5 +1,10 @@
 {
   "name": "andrevanzuydam/tina4module",
   "description": "Tina4 Example Module",
-  "license": "MIT"
+  "license": "MIT",
+  "autoload": {
+  "files": [
+      "index.php"
+    ]
+  }
 }
