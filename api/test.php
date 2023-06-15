@@ -2,7 +2,7 @@
 
 \Tina4\Get::add ("/module/test/include", function(\Tina4\Response $response) {
 
-    return $response ( (new ModuleTest())->test("Testing the module for includes"));
+    return $response ( (new ModuleTest())->test("Testing the module for includes!"));
 });
 
 \Tina4\Get::add ("/module/test/orm", function(\Tina4\Response $response) {
